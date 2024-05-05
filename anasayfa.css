@@ -1,0 +1,159 @@
+/* Genel sayfa stil ayarları */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+/* Üst başlık bölümü */
+.bas {
+  background-color: #bb1919;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+/* BBC News logosu */
+.logo {
+  width: 200px;
+  height: auto;
+}
+/* Haber başlığı */
+.baslık {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding-left: 500px;
+  padding-top: 30px;
+  text-align: center;
+}
+/* Navigasyon menüsü */
+.nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+/* Navigasyon bağlantıları */
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+/* Navigasyon bağlantıları üzerine gelindiğinde renk değiştirme */
+.nav a:hover {
+  color: #1934bb;
+}
+/* Öne Çıkanlar bölümü */
+.onecıkan {
+  height: 60px;
+  background-color: bisque;
+  text-align: left;
+  padding-left: 200px;
+  padding-top: 14px;
+  border-radius: 10px;
+}
+/* Öne Çıkanlar bağlantısı */
+.onecıkan a {
+  color: black;
+  text-decoration: none;
+}
+/* Öne Çıkanlar bağlantısı üzerine gelindiğinde renk değiştirme */
+.onecıkan a:hover {
+  color: #1934bb;
+}
+/* Ana içerik bölümü */
+.container {
+  display: flex;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+/* Sol içerik bölümü */
+.left-div {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  height: 800px;
+  border: 3px solid black;
+}
+/* Sağ içerik bölümü */
+.right-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+/* Sağ içerik satırları */
+.right-div-row {
+  display: flex;
+  flex: 1;
+}
+/* Sağ içerik sıraları içindeki içerik kutuları */
+.right-div-row div {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  margin: 5px;
+  border: 3px solid black;
+}
+/* Haber görseli */
+.img {
+  width: 500px;
+  height: 350px;
+  margin-left: 100px;
+}
+/* bütün h1 lere burdaki özellikleri verir */
+.h1 {
+  margin-left: 100px;
+  margin-right: 70px;
+  font-size: 20px;
+}
+/* bütün h2 lere burdaki özellikleri verir */
+h2 {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+/* h2 lerin üzerine geldiğinde renk değiştirir*/
+h2:hover {
+  color: blue;
+}
+/* link özellikleri */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* resim özellikleri */
+.img1 {
+  width: 250px;
+  height: 200px;
+  margin-left: 25px;
+}
+/* linklerin üzerine gelince renk değiştirir */
+a:hover {
+  color: blue;
+}
+/* p leri soldan 25 bosluk bırakır */
+p {
+  margin-left: 25px;
+}
+/* Altbilgi bölümü */
+.footer {
+  background-color: #f0f0f0;
+  color: #808080;
+  padding: 10px;
+  text-align: center;
+}
+/* Alt başlık bölümü */
+.son {
+  background-color: #bb1919;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}

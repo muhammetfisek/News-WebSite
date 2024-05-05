@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.bas {
+  background-color: #bb1919;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.baslık {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding-left: 500px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #1934bb;
+}
+.saglık {
+  height: 60px;
+  background-color: bisque;
+  text-align: left;
+  padding-left: 200px;
+  padding-top: 14px;
+  border-radius: 10px;
+}
+.saglık a {
+  color: black;
+  text-decoration: none;
+}
+.saglık a:hover {
+  color: #1934bb;
+}
+.kutu1 {
+  background-color: white;
+  width: 500px;
+  height: 1100px;
+  display: inline-block;
+  margin-top: 90px;
+  margin-left: 200px;
+  overflow: hidden;
+}
+.kutu1-content {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.kutu2 {
+  background-color: white;
+  width: 500px;
+  height: 1100px;
+  display: inline-block;
+  margin-left: 60px;
+  overflow: hidden;
+}
+.divarka {
+  background-image: url(arka\ plan.jpg);
+}
+.img {
+  width: 450px;
+  height: 250px;
+  margin-left: 25px;
+}
+
+.h1 {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.footer {
+  background-color: #f0f0f0;
+  color: #808080;
+  padding: 10px;
+  text-align: center;
+}
+.son {
+  background-color: #bb1919;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
